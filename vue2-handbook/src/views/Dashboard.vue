@@ -10,6 +10,9 @@
             <li>
                 <router-link to="/el-input">El-Input</router-link>
             </li>
+            <li>
+                <router-link to="/FormJsx">Form-JSX</router-link>
+            </li>
         </ul>
     </div>
 </template>

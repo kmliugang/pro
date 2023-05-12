@@ -46,6 +46,14 @@ export const routes = [
     meta: {
       title: 'el-input'
     }
+  },
+  {
+    path: '/FormJsx',
+    name: 'FormJsxt',
+    component: () => import('../views/FormJsx.vue'),
+    meta: {
+      title: 'FormJsx'
+    }
   }
 ]
 

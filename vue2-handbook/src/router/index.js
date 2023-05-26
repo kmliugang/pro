@@ -54,6 +54,14 @@ export const routes = [
     meta: {
       title: 'FormJsx'
     }
+  },
+  {
+    path: '/recordPageSize',
+    name: 'recordPageSize',
+    component: () => import('../views/RecordPageSize.vue'),
+    meta: {
+      title: 'recordPageSize'
+    }
   }
 ]
 
